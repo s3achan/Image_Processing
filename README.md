@@ -95,4 +95,4 @@ Open either `.ipynb` file and run cells top to bottom. A sample image (`redbull.
 
 ## 👩‍💻 Author
 
-**Shikshya** · [GitHub: s3achan](https://github.com/s3achan)
+**s3achan** · [GitHub: s3achan](https://github.com/s3achan)
