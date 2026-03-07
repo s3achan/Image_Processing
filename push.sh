@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# 1. Clear cache
+git rm -r --cached .ipynb_checkpoints/
+
+# 2. Make sure .gitignore has the right pattern
+echo "**/.ipynb_checkpoints/" >> .gitignore
+
+# 3. Commit both
+git add .gitignore
+git commit -m "Ignore checkpoints forever"
+git push
+
 # ── Add, commit and push ───────────────────────────────────────────────────
 # Usage: bash push.sh "your commit message"
 
